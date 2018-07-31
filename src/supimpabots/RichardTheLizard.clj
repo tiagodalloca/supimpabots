@@ -2,6 +2,7 @@
   (:gen-class :extends robocode.AdvancedRobot 
               :init init
               :methods [[run [robocode.AdvancedRobot] void]])
+  (:require [supimpabots.ai :as ai])
   (:import (robocode AdvancedRobot)))
 
 (defn -init []
