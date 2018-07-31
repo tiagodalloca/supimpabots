@@ -2,6 +2,6 @@
   :description "When Richard the Lizard arrives, everyone start loosing their wives" 
   :aot :all
   :manifest  {"robots" "supimpabots.RichardTheLizard"}
-  :dependencies [[org.clojure/clojure "1.9.0"]
+  :dependencies [[org.clojure/clojure "1.10.0-alpha6"]
                  [sax/sax "2.0.1"]
                  [net.sf.robocode/robocode.api "1.9.2.1"]])
